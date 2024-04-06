@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
         //Задача 1
         System.out.println("Задача 1");
-        char clientOS = 0;
+        int clientOS = 0;
         String iOS = "Установите версию приложения для iOS по ссылке";
         String android = "Установите версию приложения для Android по ссылке";
         if (clientOS == 0) {
@@ -11,7 +11,7 @@ public class Main {
 
         //Задача 2
         System.out.println("\nЗадача 2");
-        short clientDeviceYear = 2015;
+        int clientDeviceYear = 2015;
         String iOSLite = "Установите облегченную версию приложения для iOS по ссылке";
         String androidLite = "Установите облегченную версию приложения для Android по ссылке";
         if (clientDeviceYear < 2015) {
@@ -24,7 +24,7 @@ public class Main {
 
         //Задача 3
         System.out.println("\nЗадача 3");
-        short year = 4;
+        int year = 2021;
         if (year > 1584 && year % 400 == 0) {
             System.out.println(year + " год является високосным");
         } else if (year > 1584 && year % 100 != 0 && year % 4 == 0) {
@@ -33,7 +33,7 @@ public class Main {
 
         //Задача 4
         System.out.println("\nЗадача 4");
-        byte deliveryDistance = 95;
+        int deliveryDistance = 95;
         String message = "Потребуется дней: ";
         if (deliveryDistance < 20) {
             System.out.println(message + 1);
@@ -45,7 +45,7 @@ public class Main {
 
         //Задача 5
         System.out.println("\nЗадача 5");
-        byte monthNumber = 12;
+        int monthNumber = 12;
         if (monthNumber <= 12 && monthNumber > 0)
             switch (monthNumber) {
                 case 12:
